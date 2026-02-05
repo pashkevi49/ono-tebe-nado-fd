@@ -97,6 +97,11 @@
   line-height: 1;
   font-weight: 700;
   text-transform: uppercase;
+  letter-spacing: 30px;
+}
+
+.letter-spacing-extended {
+  letter-spacing: 60px;
 }
 
 .aligned-text {
@@ -201,7 +206,8 @@
   background-position: center;
 }
 
-.card__title, .card__text {
+.card__title, 
+.card__text {
   position: relative;
   z-index: 1;
   color: #fff;
@@ -286,7 +292,8 @@
   display: flex;
   flex-direction: column;
   gap: 25px;
-  width: 693px;
+  max-width: 693px;
+  width: 100%;
   font-size: 20px;
   line-height: 24px;
 }
@@ -333,7 +340,7 @@
   font-size: 18px;
 } 
 
-.footer__menu-link-active {
+.footer__menu-link_active {
   text-decoration: none;
 } 
 
