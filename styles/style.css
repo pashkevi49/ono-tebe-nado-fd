@@ -9,7 +9,7 @@
   display: flex;
   gap: 32px;
   margin: 0;
-  padding: 0 0 0 18px;
+  padding: 0;
   font-size: 18px;
 }
 
@@ -34,7 +34,7 @@
 
 .header__logo {
   display: block;
-  width: 129px;
+  width: 148px;
   justify-self: center;
 } 
 
@@ -78,7 +78,7 @@
   background: rgba(0, 0, 0, 0.6);
 }
 
-.cover__title,  
+.cover__title,
 .cover__description {
   position: relative;
   z-index: 1;
@@ -89,7 +89,7 @@
   margin: 0;
   color: #fff;
   font-size: 100px;
-  line-height: 1;
+  line-height: 1.15;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 30px;
@@ -109,13 +109,10 @@
 
 .aligned-text_center {
   text-align: center;
-  margin-top: 20px;
 }
 
 .aligned-text_right {
   text-align: right;
-  margin-top: 20px;
-  padding-right: 0;
 }
 
 .no-letter-spacing {
@@ -148,18 +145,17 @@
   color: #fff;
   font-size: 22px;
   text-transform: uppercase;
-  font-family: inherit;
   line-height: 1;
 }
 
 .lots {
  margin: 0;
- padding: 180px 50px 0;
+ padding: 180px 24px 0;
 }
 
 .lots__heading {
   margin: 0 0 27px;
-  padding-left: 64px;
+  padding-left: 40px;
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
@@ -187,7 +183,7 @@
 .card-link {
   display: block;
   height: 100%;
-  text-decoration: none;  
+  text-decoration: none;
   color: inherit;
 }
 
@@ -250,10 +246,10 @@
 
 .about {
   display: grid;
-  grid-template-columns: 334px 1fr;
+  grid-template-columns: 284px 1fr;
   gap: 25px;
   margin-top: 120px;
-  padding: 35px 50px 0;
+  padding: 35px 50px 0 0;
 }
 
 .about__column {
@@ -293,6 +289,7 @@
   width: 100%;
   font-size: 20px;
   line-height: 24px;
+  font-weight: 400;
 }
 
 .about__text p {
