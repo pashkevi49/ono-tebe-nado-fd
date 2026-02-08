@@ -23,6 +23,7 @@
 
 .header__link {
   text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .header__link_active {
@@ -47,18 +48,18 @@
   align-items: flex-start;
   font-style: normal;
   line-height: 24px;
+  font-size: 18px;
 }
 
 .address a {
   color: inherit;
   text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .header__address {
   justify-self: end;
   max-width: 240px;
-  font-size: 18px;
-  line-height: 1.35;
 }
 
 .cover {
@@ -264,7 +265,7 @@
   height: 240px;
   border-radius: 50%;
   background: #000;
-  margin: 35px auto 0;
+  margin: auto;
 }
 
 .about__logo-image {
@@ -305,7 +306,6 @@
 .address p {
   max-width: 240px;
   margin: 0;
-  font-size: 18px;
 }
 
 .footer__menu {
