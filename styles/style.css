@@ -264,7 +264,7 @@
   height: 240px;
   border-radius: 50%;
   background: #000;
-  margin: 0 auto;
+  margin: 35px auto 0;
 }
 
 .about__logo-image {
@@ -273,7 +273,7 @@
 }
 
 .about__title {
-  margin: 100px 0 100px;
+  margin: 0 0 100px;
   font-size: 40px;
   text-transform: uppercase;
   font-weight: 700;
