@@ -1,8 +1,14 @@
 .header {
   display: grid;
-  grid-template-columns: 1fr auto 1fr;
+  grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 92px 50px 92px;
+  padding: 92px 50px;
+  max-width: 1100px;
+  margin: 0 auto; 
+}
+
+.header__menu {
+  justify-self: start;
 }
 
 .header__links-list {
@@ -10,6 +16,7 @@
   gap: 32px;
   margin: 0;
   padding: 0;
+  list-style: none;
   font-size: 18px;
 }
 
